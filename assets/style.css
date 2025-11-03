@@ -1,0 +1,23 @@
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #16A34A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+.navbar.dark-mode, footer.dark-mode {
+  background-color: #1f1f1f !important;
+  color: #e0e0e0 !important;
+}
+.btn-outline-success.dark-mode {
+  color: #16A34A !important;
+  border-color: #16A34A !important;
+}
